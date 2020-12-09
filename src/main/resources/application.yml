@@ -1,0 +1,18 @@
+micronaut:
+  application:
+    name: mnStockBroker
+  server:
+    prot: 8081
+hello:
+  controller:
+    path: "/hello"
+  service:
+    greeting: "Hellow from service"
+    name: "guys"
+  config:
+    greeting:
+      de: "Hallo"
+      en: "Hello"
+
+
+
